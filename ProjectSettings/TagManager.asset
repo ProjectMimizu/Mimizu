@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hand
+  - Grabable
+  - Stabable
+  - Ground
+  - MainChara
+  - Enemy
+  - Knife
+  - Bullet
+  - FallZone
+  - Bomb
+  - Obstacle
+  - turn
+  - Duckable
+  - BossZone
+  - Controller
+  - CyclopusBeam
+  - gameMusic
+  - KillZone
+  - Stop
+  - Canvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Weapons
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
