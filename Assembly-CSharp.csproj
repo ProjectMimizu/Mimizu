@@ -124,6 +124,7 @@
      <Compile Include="Assets\Destructible 2D\Scripts\D2dVector2.cs" />
      <Compile Include="Assets\GrappleLine.cs" />
      <Compile Include="Assets\GrappleMan.cs" />
+     <Compile Include="Assets\RocketLauncher.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -231,6 +232,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{AAC57842-BE2A-1EDD-124B-A122A249FF79}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.csproj">
+      <Project>{3C7ACD0D-6344-D1F6-AFD7-41108C2A8BFD}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

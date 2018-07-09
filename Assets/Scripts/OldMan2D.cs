@@ -33,6 +33,8 @@ public class OldMan2D : MonoBehaviour {
 	public GameObject deadPlayer;
 	RaycastHit ground;
 	Vector3 origin;
+	public LayerMask groundLayer;
+
 
 	void Start () {
 		origin = transform.position;
@@ -48,6 +50,9 @@ public class OldMan2D : MonoBehaviour {
 	void FixedUpdate(){
 		Physics2D.IgnoreCollision(bodyCollider, handCollider);
 
+
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.0f, groundLayer);
+		Debug.Log (hit.distance);
 
 		//Physics.Raycast (groundCheck.position, Vector3.down, out ground);
 		//Debug.Log (ground.distance);

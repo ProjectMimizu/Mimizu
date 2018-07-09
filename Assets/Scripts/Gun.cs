@@ -42,7 +42,7 @@ public class Gun : MonoBehaviour {
 				if (Input.GetButtonDown ("Fire1")) {
 					FindObjectOfType<AudioManager> ().Play ("GunShoot");
 					antiShoot = transform.position - shoot.position;
-					rbody.AddForce (antiShoot,ForceMode2D.Impulse);
+					rbody.AddForce (antiShoot*2,ForceMode2D.Impulse);
 					Debug.Log (antiShoot);
 					Instantiate (bullet, shoot.transform.position, shoot.transform.rotation);
 					shootVal = 1;
