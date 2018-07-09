@@ -1,7 +1,7 @@
 
 Windows
 
-* go to windows explorer > Run > cmd to open up the command prompt
+* go to Windows Explorer > Run > 'cmd' to open up the command prompt
 * in the terminal, use 'cd' to navigate to where you want the project folder to be
 * copy paste: `git clone https://github.com/ProjectMimizu/Mimizu.git`
 
